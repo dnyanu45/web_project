@@ -1,18 +1,743 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
+    <title>Remote Remediation: A New Era of Device Support
+    </title>
+    <link rel="apple-touch-icon" sizes="57x57" href="et-resource/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/resource/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/resource/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/resource/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/resource/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/resource/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/resource/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/resource/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/resource/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/resource/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/resource/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/resource/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/resource/favicon/favicon-16x16.png">
+    <!--meta tags-->
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Lead Generation Sales Page">
+    <meta name="keywords" content="HTML,CSS,Bootstrap,JavaScript,Jquery">
+    <meta name="author" content="sadfsd">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>This is heading 1</h1>
-    <h2>This is a heading 2</h2>
-<<<<<<< HEAD
-    <p>This is paragraph</p>
-    <p>This is paragraph 2</p>
-=======
-    <button>click</button>
->>>>>>> a45638e6b0d98fa682551d82672617ec17888c0a
-</body>
-</html>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
+    <!---- CSS Files ----->
+    <link rel="stylesheet" href="https://resources.enterprisetalk.com/ebook/new-edm-lp-template/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-MNM06H504X&amp;l=dataLayer&amp;cx=c&amp;gtm=457e4cc1za200"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!---- Main CSS File ---->
+    <link rel="stylesheet" type="text/css" href="https://resources.enterprisetalk.com/ebook/new-edm-lp-template/css/style.css">
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <script type="text/javascript" src="https://resources.enterprisetalk.com/ebook/new-edm-lp-template/js/demo-analytics.js"></script>
+    <!-- <script src="https://resources.enterprisetalk.com/ebook/new-edm-lp-template/demo-analytics.js"></script> -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-135817332-1"></script>
+ <script>
+    $(document).ready(function () {
+       $('#industry').on('change', function () {
+          if (this.value == 'Other') {
+             $("#industry_other").show();
+             document.getElementById("industry_other_ans").required = true;
+          }
+          else {
+             $("#industry_other").hide();
+             document.getElementById("industry_other_ans").required = false;
+ 
+          }
+       });
+ 
+       $('#job_title').on('change', function () {
+          if (this.value == 'Other') {
+             $("#job_title_other").show();
+             document.getElementById("job_title_other_ans").required = true;
+          }
+          else {
+             $("#job_title_other").hide();
+             document.getElementById("job_title_other_ans").required = false;
+          }
+       });
+ 
+       $('#cq').on('change', function () {
+          if (this.value == 'Other') {
+             $("#cq_other").show();
+             document.getElementById("cq_other_ans").required = true;
+          }
+          else {
+             $("#cq_other").hide();
+             document.getElementById("cq_other_ans").required = false;
+          }
+       });
+ 
+       $("#checkBtn").on("click", function () {
+             if (check1.checked || check2.checked || check3.checked || check4.checked || check5.checked|| check6.checked|| check7.checked) {
+                 document.getElementById("check7").required = false;
+             } else {
+                 document.getElementById("check7").required = true;
+             }
+         });
+ 
+ 
+         $("#checkBtn").on("click", function () {
+             if (check8.checked || check9.checked || check10.checked || check11.checked || check12.checked) {
+                 document.getElementById("check12").required = false;
+             } else {
+                 document.getElementById("check12").required = true;
+             }
+         });
+ 
+ 
+         $('#check12').on('click', function () {
+          if (check12.checked) {
+             $("#custom_quest2_other").show();
+             document.getElementById("custom_quest2_other_ans").required = true;
+          }
+          else {
+             $("#custom_quest2_other").hide();
+ 
+             document.getElementById("custom_quest2_other_ans").required = false;
+ 
+          }
+       });
+ 
+ 
+ 
+    });
+ 
+ 
+ 
+ 
+ </script><script>
+ 
+ </script></head>
+ 
+ 
+ 
+ 
+ 
+ 
+ <body>
+ 
+    <!---------- Header Start  ----------->
+ 
+    <div class="container" style="background: rgb(63, 127, 191);">
+ 
+       <!---------- Navbar Start ---------->
+ 
+       <div class="row col-md-12" style="padding-top: 35px; padding-bottom: 80px;">
+          <div class="col-md-4 text-center">
+             <img class="logo" src="https://resources.enterprisetalk.com/ebook/gt-government-technology-Color-logo.png" width="150" alt="logo">
+          </div>
+          <div class="col-md-3 text-center">
+          </div>
+          <div class="col-md-4 mb-2 offset-md-1 text-center">
+             <img src="https://resources.enterprisetalk.com/ebook/HP-Logo-White.png" width="140" class="logo" alt="logo">
+             <!----- Client logo---->
+          </div>
+          <!-- <div class="col-md-1">
+             </div> -->
+       </div>
+ 
+       <!----------- Navbar End ----------->
+ 
+       <div class="row">
+          <div class="col-md-5 offset-md-1 text-center">
+             <!-- <i class="brand" style="padding-left: 0px;">The Enterprisetalk Conversion Collection</i> -->
+             <br><br>
+             <p class="mid-section" style="color : #fff !important; font-size : 2.5rem; text-align : center; line-height : 1.1em; font-weight: bold; margin-bottom: 20px;">
+                Remote Remediation: A New Era of Device Support</p>
+          </div>
+          <div class="col-md-5">
+             <img src="https://resources.enterprisetalk.com/ebook/HP-Q4-1-EN-1.png" class="cover-img" alt="visitors" width="70%" height="100%">
+          </div>
+          <div class="col-md-1">
+          </div>
+       </div>
+    </div>
+ 
+    <!-- Header end -->
+ 
+    <div class="container" style="background:#ccefff !important;">
+       <div class="row">
+          <div class="col-md-12">
+             <h4 class="mid-head"><strong>
+               Remote Remediation: A New Era of Device Support
+ 
+                </strong></h4>
+             <hr style="margin-bottom: 15px;">
+             <br>
+          </div>
+       </div>
+       <div class="row">
+          <div class="col-md-5 offset-md-1">
+             <p class="text-justify">
+              
+                Dealing with tech issues is challenging for both end users and the technicians trying to troubleshoot. End users often find themselves stuck in an endless cycle of support calls, while technicians struggle to interpret vague descriptions from frustrated users. In the public sector, every minute of downtime matters. Interruptions like these can delay essential services and significantly impact your mission.
+                <br><br>
+                This is where remote remediation makes a difference. Remote remediation services allow IT technicians to access devices directly—even those that won’t turn on—providing full visibility and control to diagnose and resolve issues quickly. By bypassing the back-and-forth of traditional support and relying less on incomplete user information, remote remediation helps keep your services operational and minimizes downtime.
+                <br><br>
+                Watch this on-demand webinar hosted by Government Technology to discover how remote remediation services can help your agency:
+                <br>
+                </p><ul>
+             <li>Slash IT support time: Resolve issues faster with technicians who can access and troubleshoot devices remotely.</li>
+                <li>Reduce employee downtime: Get your team back to work quickly with streamlined support that requires minimal user interaction.</li>
+            <li>Simplify device management: Offload help desk tasks and free up your IT staff to focus on strategic initiatives.</li>
+        </ul>
+              
+              
+                <br><br>
+             <p></p>
+          </div>
+ 
+          <!------- Registration Form Start -------->
+ 
+          <div class="col-md-5 offset-md-1" style="margin: 0 0px 40px 0;">
+             <form action="https://resources.enterprisetalk.com/ebook/HP-Q4-1-EN-1-sendmail.php" name="form_12" method="post" data-parsley-validate="" novalidate="">
+                <p class="form-head" style="color:#ffffff; background: #1082c1; padding: 15px;">Watch Now!</p>
+                <br>
+                <div class="col-md-12 row" style="margin: 0px;padding: 0px;">
+                   <div class="form-group col-md-6" style="padding: 0px 5px 0px 0px;">
+                      <label for="country" class="name">
+                         First Name<font color="red">*</font></label>
+                      <input type="text" value="" class="form-control" name="firstname" required="" data-parsley-id="4">
+                   </div>
+                   <div class="form-group col-md-6" style="padding: 0px 0px 0px 5px;">
+                      <label for="country" class="name">
+                         Last Name<font color="red">*</font></label>
+                      <input type="text" value="" class="form-control" name="data[0]" required="" data-parsley-id="6">
+                   </div>
+                </div>
+                <div class="form-group">
+                   <label for="country" class="name">
+                      Email Address<font color="red">*</font></label>
+                   <input type="email" value="" class="form-control" name="data[1]" required="" data-parsley-id="8">
+                </div>
+                <div class="form-group">
+                   <label for="country" class="name">
+                      Telephone<font color="red">*</font></label>
+                   <input type="number" value="" class="form-control" name="data[2]" required="" data-parsley-id="10">
+                </div>
+                <!-- <div class="form-group">
+                   <label for="country" class="name">
+                      Phone Ext</label>
+                   <input type="text" value="" class="form-control" name="data[3]">
+                </div> -->
+                <div class="form-group">
+                   <label for="country" class="name">
+                      Country<font color="red">*</font></label>
+                   <select class="form-control" name="data[4]" id="exampleFormControlSelect1" required="" data-parsley-id="12">
+                      <option value="" selected="">Select</option>
+ 
+                      <option value="United States">United States</option>
+                      
+                  
+                                  
+ 
+                      <option value="Afghanistan">Afghanistan</option>
+                      <option value="Albania">Albania</option>
+                      <option value="Algeria">Algeria</option>
+                      <option value="American Samoa">American Samoa</option>
+                      <option value="Andorra">Andorra</option>
+                      <option value="Angola">Angola</option>
+                      <option value="Anguilla">Anguilla</option>
+                      <option value="Antarctica">Antarctica</option>
+                      <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                      <option value="Argentina">Argentina</option>
+                      <option value="Armenia">Armenia</option>
+                      <option value="Aruba">Aruba</option>
+                      <option value="Australia">Australia</option>
+                      <option value="Austria">Austria</option>
+                      <option value="Azerbaijan">Azerbaijan</option>
+                      <option value="Bahamas">Bahamas</option>
+                      <option value="Bahrain">Bahrain</option>
+                      <option value="Bangladesh">Bangladesh</option>
+                      <option value="Barbados">Barbados</option>
+                      <option value="Belarus">Belarus</option>
+                      <option value="Belgium">Belgium</option>
+                      <option value="Belize">Belize</option>
+                      <option value="Benin">Benin</option>
+                      <option value="Bermuda">Bermuda</option>
+                      <option value="Bhutan">Bhutan</option>
+                      <option value="Bolivia">Bolivia</option>
+                      <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                      <option value="Botswana">Botswana</option>
+                      <option value="Bouvet Island">Bouvet Island</option>
+                      <option value="Brazil">Brazil</option>
+                      <option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+                      <option value="Brunei Darussalam">Brunei Darussalam</option>
+                      <option value="Bulgaria">Bulgaria</option>
+                      <option value="Burkina Faso">Burkina Faso</option>
+                      <option value="Burundi">Burundi</option>
+                      <option value="Cambodia">Cambodia</option>
+                      <option value="Cameroon">Cameroon</option>
+                      <option value="Canada">Canada</option>
+                      <option value="Cape Verde">Cape Verde</option>
+                      <option value="Cayman Islands">Cayman Islands</option>
+                      <option value="Central African Republic">Central African Republic</option>
+                      <option value="Chad">Chad</option>
+                      <option value="Chile">Chile</option>
+                      <option value="China">China</option>
+                      <option value="Christmas Island">Christmas Island</option>
+                      <option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option>
+                      <option value="Colombia">Colombia</option>
+                      <option value="Comoros">Comoros</option>
+                      <option value="Congo">Congo</option>
+                      <option value="Congo, the Democratic Republic of the">Congo, the Democratic Republic of the
+                      </option>
+                      <option value="Cook Islands">Cook Islands</option>
+                      <option value="Costa Rica">Costa Rica</option>
+                      <option value="Cote D'Ivoire">Cote D'Ivoire</option>
+                      <option value="Croatia">Croatia</option>
+                      <option value="Cuba">Cuba</option>
+                      <option value="Cyprus">Cyprus</option>
+                      <option value="Czech Republic">Czech Republic</option>
+                      <option value="Denmark">Denmark</option>
+                      <option value="Djibouti">Djibouti</option>
+                      <option value="Dominica">Dominica</option>
+                      <option value="Dominican Republic">Dominican Republic</option>
+                      <option value="Ecuador">Ecuador</option>
+                      <option value="Egypt">Egypt</option>
+                      <option value="El Salvador">El Salvador</option>
+                      <option value="Equatorial Guinea">Equatorial Guinea</option>
+                      <option value="Eritrea">Eritrea</option>
+                      <option value="Estonia">Estonia</option>
+                      <option value="Ethiopia">Ethiopia</option>
+                      <option value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option>
+                      <option value="Faroe Islands">Faroe Islands</option>
+                      <option value="Fiji">Fiji</option>
+                      <option value="Finland">Finland</option>
+                      <option value="France">France</option>
+                      <option value="French Guiana">French Guiana</option>
+                      <option value="French Polynesia">French Polynesia</option>
+                      <option value="French Southern Territories">French Southern Territories</option>
+                      <option value="Gabon">Gabon</option>
+                      <option value="Gambia">Gambia</option>
+                      <option value="Georgia">Georgia</option>
+                      <option value="Germany">Germany</option>
+                      <option value="Ghana">Ghana</option>
+                      <option value="Gibraltar">Gibraltar</option>
+                      <option value="Greece">Greece</option>
+                      <option value="Greenland">Greenland</option>
+                      <option value="Grenada">Grenada</option>
+                      <option value="Guadeloupe">Guadeloupe</option>
+                      <option value="Guam">Guam</option>
+                      <option value="Guatemala">Guatemala</option>
+                      <option value="Guinea">Guinea</option>
+                      <option value="Guinea-Bissau">Guinea-Bissau</option>
+                      <option value="Guyana">Guyana</option>
+                      <option value="Haiti">Haiti</option>
+                      <option value="Heard Island and Mcdonald Islands">Heard Island and Mcdonald Islands</option>
+                      <option value="Holy See (Vatican City State)">Holy See (Vatican City State)</option>
+                      <option value="Honduras">Honduras</option>
+                      <option value="Hong Kong">Hong Kong</option>
+                      <option value="Hungary">Hungary</option>
+                      <option value="Iceland">Iceland</option>
+                      <option value="India">India</option>
+                      <option value="Indonesia">Indonesia</option>
+                      <option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option>
+                      <option value="Iraq">Iraq</option>
+                      <option value="Ireland">Ireland</option>
+                      <option value="Israel">Israel</option>
+                      <option value="Italy">Italy</option>
+                      <option value="Jamaica">Jamaica</option>
+                      <option value="Japan">Japan</option>
+                      <option value="Jordan">Jordan</option>
+                      <option value="Kazakhstan">Kazakhstan</option>
+                      <option value="Kenya">Kenya</option>
+                      <option value="Kiribati">Kiribati</option>
+                      <option value="Korea, Democratic People's Republic of">Korea, Democratic People's Republic of
+                      </option>
+                      <option value="Korea, Republic of">Korea, Republic of</option>
+                      <option value="Kuwait">Kuwait</option>
+                      <option value="Kyrgyzstan">Kyrgyzstan</option>
+                      <option value="Lao People's Democratic Republic">Lao People's Democratic Republic</option>
+                      <option value="Latvia">Latvia</option>
+                      <option value="Lebanon">Lebanon</option>
+                      <option value="Lesotho">Lesotho</option>
+                      <option value="Liberia">Liberia</option>
+                      <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
+                      <option value="Liechtenstein">Liechtenstein</option>
+                      <option value="Lithuania">Lithuania</option>
+                      <option value="Luxembourg">Luxembourg</option>
+                      <option value="Macao">Macao</option>
+                      <option value="Macedonia, the Former Yugoslav Republic of">Macedonia, the Former Yugoslav Republic
+                         of</option>
+                      <option value="Madagascar">Madagascar</option>
+                      <option value="Malawi">Malawi</option>
+                      <option value="Malaysia">Malaysia</option>
+                      <option value="Maldives">Maldives</option>
+                      <option value="Mali">Mali</option>
+                      <option value="Malta">Malta</option>
+                      <option value="Marshall Islands">Marshall Islands</option>
+                      <option value="Martinique">Martinique</option>
+                      <option value="Mauritania">Mauritania</option>
+                      <option value="Mauritius">Mauritius</option>
+                      <option value="Mayotte">Mayotte</option>
+                      <option value="Mexico">Mexico</option>
+                      <option value="Micronesia, Federated States of">Micronesia, Federated States of</option>
+                      <option value="Moldova, Republic of">Moldova, Republic of</option>
+                      <option value="Monaco">Monaco</option>
+                      <option value="Mongolia">Mongolia</option>
+                      <option value="Montserrat">Montserrat</option>
+                      <option value="Morocco">Morocco</option>
+                      <option value="Mozambique">Mozambique</option>
+                      <option value="Myanmar">Myanmar</option>
+                      <option value="Namibia">Namibia</option>
+                      <option value="Nauru">Nauru</option>
+                      <option value="Nepal">Nepal</option>
+                      <option value="Netherlands">Netherlands</option>
+                      <option value="Netherlands Antilles">Netherlands Antilles</option>
+                      <option value="New Caledonia">New Caledonia</option>
+                      <option value="New Zealand">New Zealand</option>
+                      <option value="Nicaragua">Nicaragua</option>
+                      <option value="Niger">Niger</option>
+                      <option value="Nigeria">Nigeria</option>
+                      <option value="Niue">Niue</option>
+                      <option value="Norfolk Island">Norfolk Island</option>
+                      <option value="Northern Mariana Islands">Northern Mariana Islands</option>
+                      <option value="Norway">Norway</option>
+                      <option value="Oman">Oman</option>
+                      <option value="Pakistan">Pakistan</option>
+                      <option value="Palau">Palau</option>
+                      <option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied</option>
+                      <option value="Panama">Panama</option>
+                      <option value="Papua New Guinea">Papua New Guinea</option>
+                      <option value="Paraguay">Paraguay</option>
+                      <option value="Peru">Peru</option>
+                      <option value="Philippines">Philippines</option>
+                      <option value="Pitcairn">Pitcairn</option>
+                      <option value="Poland">Poland</option>
+                      <option value="Portugal">Portugal</option>
+                      <option value="Puerto Rico">Puerto Rico</option>
+                      <option value="Qatar">Qatar</option>
+                      <option value="Reunion">Reunion</option>
+                      <option value="Romania">Romania</option>
+                      <option value="Russian Federation">Russian Federation</option>
+                      <option value="Rwanda">Rwanda</option>
+                      <option value="Saint Helena">Saint Helena</option>
+                      <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+                      <option value="Saint Lucia">Saint Lucia</option>
+                      <option value="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
+                      <option value="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option>
+                      <option value="Samoa">Samoa</option>
+                      <option value="San Marino">San Marino</option>
+                      <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+                      <option value="Saudi Arabia">Saudi Arabia</option>
+                      <option value="Senegal">Senegal</option>
+                      <option value="Serbia and Montenegro">Serbia and Montenegro</option>
+                      <option value="Seychelles">Seychelles</option>
+                      <option value="Sierra Leone">Sierra Leone</option>
+                      <option value="Singapore">Singapore</option>
+                      <option value="Slovakia">Slovakia</option>
+                      <option value="Slovenia">Slovenia</option>
+                      <option value="Solomon Islands">Solomon Islands</option>
+                      <option value="Somalia">Somalia</option>
+                      <option value="South Africa">South Africa</option>
+                      <option value="South Georgia and the South Sandwich Islands">South Georgia and the South Sandwich
+                         Islands</option>
+                      <option value="Spain">Spain</option>
+                      <option value="Sri Lanka">Sri Lanka</option>
+                      <option value="Sudan">Sudan</option>
+                      <option value="Suriname">Suriname</option>
+                      <option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option>
+                      <option value="Swaziland">Swaziland</option>
+                      <option value="Sweden">Sweden</option>
+                      <option value="Switzerland">Switzerland</option>
+                      <option value="Syrian Arab Republic">Syrian Arab Republic</option>
+                      <option value="Taiwan, Province of China">Taiwan, Province of China</option>
+                      <option value="Tajikistan">Tajikistan</option>
+                      <option value="Tanzania, United Republic of">Tanzania, United Republic of</option>
+                      <option value="Thailand">Thailand</option>
+                      <option value="Timor-Leste">Timor-Leste</option>
+                      <option value="Togo">Togo</option>
+                      <option value="Tokelau">Tokelau</option>
+                      <option value="Tonga">Tonga</option>
+                      <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                      <option value="Tunisia">Tunisia</option>
+                      <option value="Turkey">Turkey</option>
+                      <option value="Turkmenistan">Turkmenistan</option>
+                      <option value="Turks and Caicos Islands">Turks and Caicos Islands</option>
+                      <option value="Tuvalu">Tuvalu</option>
+                      <option value="Uganda">Uganda</option>
+                      <option value="Ukraine">Ukraine</option>
+                      <option value="United Arab Emirates">United Arab Emirates</option>
+                       <option value="United Kingdom">United Kingdom</option>
+                      <!-- <option value="United States">United States</option> -->
+                      <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
+                      <option value="Uruguay">Uruguay</option>
+                      <option value="Uzbekistan">Uzbekistan</option>
+                      <option value="Vanuatu">Vanuatu</option>
+                      <option value="Venezuela">Venezuela</option>
+                      <option value="Viet Nam">Viet Nam</option>
+                      <option value="Virgin Islands, British">Virgin Islands, British</option>
+                      <option value="Virgin Islands, U.s.">Virgin Islands, U.s.</option>
+                      <option value="Wallis and Futuna">Wallis and Futuna</option>
+                      <option value="Western Sahara">Western Sahara</option>
+                      <option value="Yemen">Yemen</option>
+                      <option value="Zambia">Zambia</option>
+                      <option value="Zimbabwe">Zimbabwe</option>
+ 
+                   </select>
+                </div>
+                <div class="form-group">
+                   <label for="country" class="name">
+                      Company Name<font color="red">*</font></label>
+                   <input type="text" value="" class="form-control" name="data[5]" required="" data-parsley-id="14">
+                </div>
+                <div class="form-group">
+                   <label for="country" class="name">
+                      Company Size<font color="red">*</font></label><br>
+                   <select class="form-control" name="data[6]" id="exampleFormControlSelect1" required="" data-parsley-id="16">
+                      <option value="" selected="">Select</option>
+ 
+                      <option value="1-4">1-4</option>
+                      <option value="5-9">5-9</option>
+                      <option value="10-24">10-24</option>
+                      <option value="25-49">25-49</option>
+                      <option value="50-99">50-99</option>
+                      <option value="100-249">100-249</option>
+                      <option value="250-499">250-499</option>
+                      <option value="500-999">500-999</option>
+                      <option value="1,000-4,999">1,000-4,999</option>
+                      <option value="5,000 Plus">5,000+</option>
+                   
+                   </select>
+                </div>
+                <div class="form-group">
+                   <label for="country" class="name">
+                      State<font color="red">*</font></label><br>
+                   <input type="text" value="" class="form-control" name="data[7]" required="" data-parsley-id="18">
+                </div>
+                <div class="form-group">
+                   <label for="country" class="name">
+                      City<font color="red">*</font></label><br>
+                   <input type="text" value="" class="form-control" name="data[8]" required="" data-parsley-id="20">
+                </div>
+                <div class="form-group">
+                   <label for="country" class="name">
+                      Address<font color="red">*</font></label><br>
+                   <input type="text" value="" class="form-control" name="data[9]" required="" data-parsley-id="22">
+                </div>
+                <div class="form-group">
+                   <label for="country" class="name">
+                      Postal Code<font color="red">*</font></label><br>
+                   <input type="text" value="" class="form-control" name="data[10]" required="" data-parsley-id="24">
+                </div>
+ 
+                           <div class="form-group">
+                   <label for="country" class="name">
+                      Industry<font color="red">*</font></label><br>
+                   <select class="form-control" name="data[11]" id="industry" required="" data-parsley-id="26">
+                      <option value="" selected="">Select</option>   
+                    
+                      <option value="Advertising/Media/Publishing">Advertising/Media/Publishing</option>
+                      <option value="Aerospace and Aviation">Aerospace and Aviation</option>
+                      <option value="Agriculture and Forestry">Agriculture and Forestry</option>
+                      <option value="Automotive">Automotive</option>
+                      <option value="Banking/Accounting/Financial">Banking/Accounting/Financial</option>
+                      <option value="Computer and Technology">Computer and Technology</option>
+                      <option value="Education and Training">Education and Training</option>
+                      <option value="Engineering and Construction">Engineering and Construction</option>
+                      <option value="Entertainment/Travel/Hospitality">Entertainment/Travel/Hospitality</option>
+                      <option value="Food and Beverage">Food and Beverage</option>
+                      <option value="Government and Public Administration">Government and Public Administration</option>
+                      <option value="Healthcare">Healthcare</option>
+                      <option value="Insurance">Insurance</option>
+                      <option value="Legal Solutions">Legal Solutions</option>
+                      <option value="Manufacturing">Manufacturing</option>
+                      <option value="Marketing">Marketing</option>
+                      <option value="Non profit Organizations">Non profit Organizations</option>
+                      <option value="Pharmaceutical">Pharmaceutical</option>
+                      <option value="Public Relations">Public Relations</option>
+                      <option value="Real Estate">Real Estate</option>
+                      <option value="Retail and Wholesale">Retail and Wholesale</option>
+                      <option value="Scientific">Scientific</option>
+                      <option value="Telecommunications">Telecommunications</option>
+                      <option value="Transportation and Shipping">Transportation and Shipping</option>
+                      <option value="Utilities">Utilities</option>
+                      <option value="VAR/VAD/System Integrator">VAR/VAD/System Integrator</option>
+ 
+ 
+ 
+                      <option value="Other" data-parsley-required-message="">Other</option>
+                   </select>
+                </div>
+ 
+                <div class="form-group" id="industry_other" style="display:none;">
+                   <label>Please Specify Industry Name<font color="red">*</font></label><br>
+                   <input type="text" value="" id="industry_other_ans" class="form-control" name="data[12]" data-parsley-id="28">
+                </div>
+ 
+            
+ <div class="form-group">
+                <label for="country" class="name">
+                   Job Title<font color="red">*</font></label><br>
+                <select class="form-control" name="data[13]" id="job_title" required="" data-parsley-id="30">
+                   <option value="" selected="">Select</option>
+ 
+ 
+                   <option value="Business analysts">Business analysts</option>
+                   <option value="Data analysts">Data analysts</option>
+                   <option value="IT helpdesk">IT helpdesk</option>
+                   <option value="IT Technician">IT Technician</option>
+                   <option value="IT manager">IT manager</option>
+                   <option value="IT director">IT director</option>
+                   <option value="CIO">CIO</option>
+                   <option value="CTO">CTO</option>
+ 
+ 
+ 
+                   <option value="Director of Operations">Director of Operations</option>
+                      <option value="Director of Finance">Director of Finance</option>
+                      <option value="Purchasing Director">Purchasing Director</option>
+                      <option value="Procurement Director">Procurement Director</option>
+                      <!-- <option value="IT Director">IT Director</option> -->
+                      <option value="Technology Director">Technology Director</option>
+                      <option value="Director of Reservations">Director of Reservations</option>
+                      <option value="Director of Loyalty">Director of Loyalty</option>
+                      <option value="Director Cargo">Director Cargo</option>
+                      <option value="VP of Operations">VP of Operations</option>
+                      <option value="VP of Finance">VP of Finance</option>
+                      <option value="VP of Director">VP of Director</option>
+                      <option value="Procurement Vice President">Procurement Vice President</option>
+                      <option value="VP IT">VP IT</option>
+                      <option value="Technology VP">Technology VP</option>
+                      <option value="VP of Reservations">VP of Reservations</option>
+                      <option value="VP of Loyalty">VP of Loyalty</option>
+                      <option value="VP of Cargo">VP of Cargo</option>
+                      <option value="Head of Operations">Head of Operations</option>
+                      <option value="Chief Operations Officer">Chief Operations Officer</option>
+                      <option value="Head of Customer Loyalty">Head of Customer Loyalty</option>
+                      <option value="Chief Customer Loyalty Officer">Chief Customer Loyalty Officer</option>
+                      <option value="Head of Reservations">Head of Reservations</option>
+                      <option value="Chief Reservations Officer">Chief Reservations Officer</option>
+                      <option value="Head of Finance">Head of Finance</option>
+                      <option value="Chief Finance Officer">Chief Finance Officer</option>
+                      <option value="Head of Purchasing">Head of Purchasing</option>
+                      <option value="Head of Procurement">Head of Procurement</option>
+                      <option value="Chief Purchasing Officer">Chief Purchasing Officer</option>
+                      <option value="Chief Procurement Officer">Chief Procurement Officer</option>
+                      <option value="Head of Information Technology">Head of Information Technology</option>
+                      <!-- <option value="Chief Technology Officer">Chief Technology Officer</option> -->
+                      <option value="Head of Cargo">Head of Cargo</option>
+                      <option value="Chief Cargo Officer">Chief Cargo Officer</option>  
+ 
+                                     
+ 
+                   <option value="Other">Other</option>
+       
+                  
+                      
+                       
+                </select>
+             </div>
+             <div class="form-group" id="job_title_other" style="display:none;">
+                <label>Please Specify Job Title<font color="red">*</font></label><br>
+                <input type="text" id="job_title_other_ans" class="form-control" name="data[14]" data-parsley-id="32">
+             </div>
+          
+          
+                
+ 
+ 
+              <div class="form-group">
+                   <label for="country" class="name">
+                   Seniority<font color="red">*</font></label><br>
+                   <select class="form-control" name="data[15]" id="job_level" required="" data-parsley-id="34">
+                      <option value="" selected="">Select</option>
+                  
+                    
+ 
+                      <option value="Manager plus">Manager+ </option>
+                      <option value="Other">Other</option>
+                      
+ 
+                        
+                        
+                       
+                   </select>
+                </div>
+ 
+ 
+             
+ 
+ 
+               
+ 
+ 
+                <section>
+                   <label class="checkbox" style="line-height: 1.5em;text-align: justify;padding-left: 0px; margin-top: 10px; font-size: 15px !important;">
+                     
+                      HP respects your privacy. Visit HP's <a href="https://www.hp.com/us-en/privacy/privacy.html" target="_blank" rel="noopener noreferrer">Privacy Statement</a> to learn how HP collects and uses your personal data. HP may contact me with personalized offers, support updates and event news by:
+                   </label>
+                </section>
+                <section>
+                   <label class="checkbox" style="line-height: 1.5em;text-align: justify;padding-left: 30px; margin-top: 10px; font-size: 15px !important;">
+                      <input type="checkbox" class="form-check-input" name="data[16]" value="Phone" id="exampleCheck1" data-parsley-multiple="data16" data-parsley-id="37">
+                      Phone <br>
+                    
+                   </label>
+                </section>
+                <section>
+                   <label class="checkbox" style="line-height: 1.5em;text-align: justify;padding-left: 30px; margin-top: 0px; font-size: 15px !important;">
+                      <input type="checkbox" class="form-check-input" name="data[17]" value="Email" id="exampleCheck1" data-parsley-multiple="data17" data-parsley-id="40">
+                      Email   
+                   </label>
+                </section>
+                <br>
+                <!-- <section>
+                   <label class="checkbox"
+                      style="line-height: 1.5em;text-align: justify;padding-left: 20px;font-size: 15px !important;">
+                      <input type="checkbox" name="data[20]" value="Yes3" class="form-check-input">
+                      By checking this box, I agree that EnterpriseTalk can share my data with Partners so that
+                      Partners
+                      can contact me by email or phone and provide more information about this content.
+                   </label><br><br>
+                </section> -->
+                <input type="submit" id="checkBtn" value="Watch Now!" class="hs-button primary large" style="font-family: 'Open Sans', sans-serif !important;">
+             </form>
+          </div>
+          <!-------Form End -------->
+       </div>
+    </div>
+ 
+    <!-------- Footer Start -------->
+ 
+    <div class="container" style="background: rgba(12, 7, 10, 0.81)">
+       <div class="row">
+          <div class="col-12">
+             <center style="color: #fff">
+                <br>
+                <a class="footer-main" href="https://enterprisetalk.com/unsubscribe">Click here to
+                   Unsubscribe</a>&nbsp;&nbsp; | &nbsp;&nbsp;<a class="footer-main" href="https://7knotsdigital.com/privacy-policy/">7 Knots Digital Privacy Policy</a>
+                &nbsp;&nbsp; | &nbsp;&nbsp;<a class="footer-main" href="https://enterprisetalk.com/opt-out-form/">Do Not
+                   Sell My Information</a>
+                <br><br>
+                <p style="color: #fff; font-size: 15px">
+                   Copyright © 2024 7 Knots Digital<br>
+                   60 Fairview Ave,  <br>
+                   Suite 812 PMB 194, <br>
+                   Hudson, NY 12534 <br>
+ 
+                </p>
+             </center>
+          </div>
+       </div>
+    </div>
+ 
+    <!------ End ------->
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://resources.enterprisetalk.com/ebook/new-edm-lp-template/js/validation.js"></script>
+    <script type="text/javascript">
+       $(document).ready(function () {
+          $('form').parsley();
+       });
+    </script><iframe allow="join-ad-interest-group" data-tagging-id="G-MNM06H504X" data-load-time="1735930550574" height="0" width="0" src="https://td.doubleclick.net/td/ga/rul?tid=G-MNM06H504X&amp;gacid=1946158855.1735814264&amp;gtm=45je4cc1v9118942350za200&amp;dma=0&amp;gcd=13l3l3l3l1l1&amp;npa=0&amp;pscdl=noapi&amp;aip=1&amp;fledge=1&amp;frm=0&amp;tag_exp=101925629~102067555~102067808~102081485~102198178&amp;z=938009296" style="display: none; visibility: hidden;"></iframe>
+ 
+ 
+ </body></html>
